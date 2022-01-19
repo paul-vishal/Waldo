@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    {% load static %}
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet"  type="text/css" href="{% static 'style.css' %}" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="color: azure">Welcome to Waldo !</h1>
+      <div class="title">Registration</div>
+      <div class="user-content">
+        <form action="register">
+          <div class="user-data">
+            <div class="user-input-box">
+              <span class="user-details-span">Full Name:</span>
+              <input type="text" name="fullname" placeholder="Enter your name"  />
+            </div>
+
+            <div class="user-input-box">
+              <span class="user-details-span">Username:</span>
+              <input type="text" name="username" placeholder="Enter your username"  />
+            </div>
+
+            <div class="user-input-box">
+              <span class="user-details-span">Email:</span>
+              <input type="text" name="email" placeholder="Enter your email"  />
+            </div>
+
+            <div class="user-input-box">
+              <span class="user-details-span">Mobile:</span>
+              <input type="number" name="mobile" placeholder="Enter your Number"  />
+            </div>
+            <div class="user-input-box">
+              <span class="user-details-span">Password:</span>
+              <input type="password" name="password" placeholder="Confirm your password"  />
+            </div>
+            <div class="user-input-box">
+              <span class="user-details-span">Confirm Password:</span>
+              <input type="password" name="password" placeholder="Confirm your password"  />
+            </div>
+            <div class="user-input-box">
+              <span class="user-choice"> Wallpaper Genre:</span>
+            </div>
+
+            <div class="user-input-box"></div>
+
+            <div class="input-select">
+              <input type="checkbox" id="choice1" name="anime" value="true" />
+              <span class="user-details-span" for="choice1"> Anime</span>
+            </div>
+`
+            <div class="input-select">
+              <input
+                type="checkbox"
+                id="choice2"
+                name="abstract"
+                value="true"
+              />
+              <span class="user-details-span" for="choice2"> Abstract</span>
+            </div>
+            <div class="input-select">
+              <input
+                type="checkbox"
+                id="choice3"
+                name="animals"
+                value="true"
+              />
+              <span class="user-details-span" for="choice3"> Animals</span>
+            </div class="input-select">
+            <div>
+              <input type="checkbox" id="choice4" name="cars" value="true" />
+              <span class="user-details-span" for="choice4"> Cars</span>
+            </div>
+            <div class="input-select">
+              <input
+                type="checkbox"
+                id="choice5"
+                name="digitalArt"
+                value="true"
+              />
+              <span class="user-details-span" for="choice5"> Digital Art</span>
+            </div>
+            <div class="input-select">
+              <input
+                type="checkbox"
+                id="choice6"
+                name="minimalism"
+                value="true"
+              />
+              <span class="user-details-span" for="choice6"> Minimalism</span>
+            </div>
+            <div class="input-select">
+              <input
+                type="checkbox"
+                id="choice7"
+                name="mountains"
+                value="true"
+              />
+              <span class="user-details-span" for="choice7"> Mountains</span>
+            </div>
+            <div class="input-select">
+              <input
+                type="checkbox"
+                id="choice8"
+                name="nature"
+                value="true"
+              />
+              <span class="user-details-span" for="choice8"> Nature</span>
+            </div>
+            <div class="input-select">
+              <input
+                type="checkbox"
+                id="choice9"
+                name="photography"
+                value="true"
+              />
+              <span class="user-details-span" for="choice9"> Photography</span>
+            </div>
+            <div class="input-select">
+              <input
+                type="checkbox"
+                id="choice10"
+                name="sports"
+                value="true"
+              />
+              <span class="user-details-span" for="choice10"> Sports</span>
+            </div>
+            <div class="input-select">
+              <input
+                type="checkbox"
+                id="choice11"
+                name="tattoo"
+                value="true"
+              />
+              <span class="user-details-span" for="choice11"> Tattoo</span>
+            </div>
+            <div class="input-select">
+              <input
+                type="checkbox"
+                id="choice12"
+                name="games"
+                value="true"
+              />
+              <span class="user-details-span" for="choice12"> Video Games</span>
+            </div>
+          </div>
+
+          <div class="button">
+            <input type="submit" value="Register" />
+          </div>
+           <div class="button">
+             <a href="/waldo/login_page" >Login</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

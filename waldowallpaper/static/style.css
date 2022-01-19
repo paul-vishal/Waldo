@@ -1,0 +1,106 @@
+/*--- Imported Google Fonts --*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: initial;
+  font-family: sans-serif;
+}
+
+body {
+  display: flexbox;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: rgb(2, 0, 36);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(60, 56, 30, 1) 53%,
+    rgba(119, 112, 11, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(60, 56, 30, 1) 53%,
+    rgba(119, 112, 11, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(60, 56, 30, 1) 53%,
+    rgba(119, 112, 11, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#77700b",GradientType=1);
+}
+
+.container {
+  border-radius: 10px;
+  max-width: 650px;
+  width: 100%;
+  border: 2px solid #ccc;
+  padding: 25px 40px;
+}
+
+.container .title {
+  position: relative;
+  font-size: larger;
+  font-weight: 600;
+  color: #ccc;
+}
+
+.user-content form .user-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 25px 25px 12px 0;
+}
+
+form .user-data .user-input-box {
+  width: calc(50% - 25px);
+  margin-bottom: 15px;
+}
+
+.user-data .user-input-box input {
+  height: 50px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 2px solid #ccc;
+  transition: all 0.5s ease;
+}
+
+.user-data .user-details-span {
+  color: #ccc;
+}
+
+.user-data .user-choice {
+  color: #ccc;
+}
+
+form .user-data .input-select {
+  width: auto;
+  margin-right: 15px;
+}
+
+form .button {
+  margin: 33px 0;
+  height: 50px;
+}
+
+form .button input {
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  transition: all 0.5s ease;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1), rgba(119, 112, 11, 1));
+}
